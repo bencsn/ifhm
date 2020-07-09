@@ -29,6 +29,7 @@ Future<List> fetchBills() async {
 }
 
 Future<List> fetchBillsWithCustomCredentials(String id, String password) async {
+  // TODO: exception error crashses the app; fix it!
   try {
     String currentProjectName = id;
     String url =
